@@ -6,8 +6,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+body .btn+.btn {
+  margin-left: 10px;
+}
+body .badge{font-size: 20px;text-transform: capitalize;}
+body .badge + .badge{margin-left: 3px;}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.createPostForm{
+  text-align: right;
+  padding: 20px;
+}
+.ladingSec{
+  position: fixed;
+  left:0;
+  right: 0;
+  top:0;
+  bottom:0;
+  background: rgba(0,0,0,0.5);
+  z-index: 999;
 }
